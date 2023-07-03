@@ -5,7 +5,7 @@ const appNode = document.getElementById("bored__app");
 
 // функции--------------------------------------------------
 function getActivity() {
-  fetch("http://www.boredapi.com/api/activity/")
+  fetch("https://www.boredapi.com/api/activity/")
     .then((data) => data.json())
     .then((res) => (actionNode.innerHTML = res.activity));
 }
