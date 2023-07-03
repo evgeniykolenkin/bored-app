@@ -22,6 +22,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  padding: 10px;
 }
 
 .bored__app-inner {
@@ -40,6 +41,8 @@ body {
 .bored__app-action {
   font-size: 40px;
   margin-bottom: 94px;
+  text-align: center;
+  height: 72px;
 }
 
 .bored__app-btn {
@@ -53,4 +56,31 @@ body {
   color: #ffffff;
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .bored__app-inner {
+    width: 100%;
+  }
+  .bored__app-title {
+    font-size: 25px;
+    margin-bottom: 46px;
+  }
+
+  .bored__app-action {
+    font-size: 30px;
+    margin-bottom: 64px;
+  }
+
+  .bored__app-btn {
+    font-size: 32px;
+    width: 100%;
+    height: 60px;
+    padding: 11px 135px;
+    box-sizing: border-box;
+    background-color: #0094ff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
 }
